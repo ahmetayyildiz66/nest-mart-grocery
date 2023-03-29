@@ -1,7 +1,7 @@
 
 
 <template>
-  <header>
+  <header class="bg-gray-400 text-red-100">
     hey
   </header>
 
