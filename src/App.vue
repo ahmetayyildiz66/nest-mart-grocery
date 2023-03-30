@@ -5,11 +5,13 @@
 		<div class="border-b border-gray-150">
 			<TheHeader />
 		</div>
+		<TheNavbar />
 	</main>
 </template>
 
 <script setup lang="ts">
 import TheHeader from './layouts/TheHeader.vue';
+import TheNavbar from './layouts/TheNavbar.vue';
 </script>
 
 <style>
