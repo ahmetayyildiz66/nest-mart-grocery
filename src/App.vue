@@ -8,6 +8,7 @@
 		<TheNavbar />
 		<HeroSection />
 		<ShopByCategories />
+		<ShopNowCards />
 	</main>
 </template>
 
@@ -16,6 +17,7 @@ import TheHeader from './layouts/TheHeader.vue';
 import TheNavbar from './layouts/TheNavbar.vue';
 import HeroSection from './components/HeroSection.vue';
 import ShopByCategories from './components/ShopByCategories.vue';
+import ShopNowCards from './components/ShopNowCards.vue';
 </script>
 
 <style>
