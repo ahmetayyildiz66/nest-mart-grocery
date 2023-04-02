@@ -1,0 +1,1 @@
+export { default as IconMilkDairies } from "../IconMilkDairies.vue"
