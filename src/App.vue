@@ -6,12 +6,14 @@
 			<TheHeader />
 		</div>
 		<TheNavbar />
+		<HeroSection />
 	</main>
 </template>
 
 <script setup lang="ts">
 import TheHeader from './layouts/TheHeader.vue';
 import TheNavbar from './layouts/TheNavbar.vue';
+import HeroSection from './components/HeroSection.vue';
 </script>
 
 <style>
