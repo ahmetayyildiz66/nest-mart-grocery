@@ -10,12 +10,14 @@
 		<ShopByCategories />
 		<ShopNowCards />
 		<PopularProducts />
+		<TheFooter />
 	</main>
 </template>
 
 <script setup lang="ts">
 import TheHeader from './layouts/TheHeader.vue';
 import TheNavbar from './layouts/TheNavbar.vue';
+import TheFooter from './layouts/TheFooter.vue';
 import HeroSection from './components/HeroSection.vue';
 import ShopByCategories from './components/ShopByCategories.vue';
 import ShopNowCards from './components/ShopNowCards.vue';

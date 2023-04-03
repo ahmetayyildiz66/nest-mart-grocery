@@ -27,7 +27,7 @@ import BrowseButton from '@/components/BrowseButton.vue';
     </div>
 
     <div class="flex items-center space-x-3">
-      <IconHeadset />
+      <IconHeadset :width="36" :height="36" :fill="'#253D4E'" />
       <p class="flex flex-col">
         <span class="text-green-750 font-bold text-3xl">1900-8888</span>
         <span class="text-gray-450 text-xs">24/7 Support Center</span>
