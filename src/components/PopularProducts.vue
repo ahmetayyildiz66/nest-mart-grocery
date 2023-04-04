@@ -7,9 +7,10 @@
     <span v-if="loading">Loading...</span>
     <div class="mt-12 grid grid-cols-5 gap-6" v-if="!loading">
       <PopularProductCard
-        v-for="res in result.popularProducts" :key="res.id"
+        v-for="res in result.popularProducts"
+        :key="res.id"
         :title="res.title"
-        :price="res.price" 
+        :price="res.price"
         :rating="res.rating"
         :discountPrice="res.discountPrice"
         :weight="res.weight"
@@ -27,8 +28,8 @@ import PopularFilterList from './PopularFilterList.vue'
 import PopularProductCard from './PopularProductCard.vue'
 
 const POPULAR_PRODUCTS = gql`
-  query PopularProducts {
-    popularProducts {
+  query ($category: Category) {
+    popularProducts(category: $category) {
       id
       title
       price
