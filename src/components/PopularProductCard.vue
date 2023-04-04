@@ -33,7 +33,7 @@
 import { computed } from 'vue'
 
 const discountAmount = computed(() => {
-  return (((props.price - props.discountPrice) / props.price) * 100).toFixed(0)
+  return Number((((props.price - props.discountPrice) / props.price) * 100).toFixed(0))
 })
 
 import DiscountBanner from './DiscountBanner.vue'
